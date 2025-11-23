@@ -25,3 +25,22 @@ reviews = [
     "Absolutely loved the product",
     "I want to buy again"
 ]
+
+**1️⃣ Reviews starting with “A” or “a”**
+
+Pattern:
+^[aA] → match strings that begin with A/a.
+a_reviews = []
+pattern_to_find = r"^[aA]"
+
+for i in reviews:
+    if re.search(pattern_to_find, i):
+        a_reviews.append(i)
+
+print(a_reviews)
+
+**Output:**
+
+['Anna helped me today!', 'amazing support from An', 'Absolutely loved the product']
+
+
