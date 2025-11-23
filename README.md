@@ -27,9 +27,6 @@ reviews = [
 ]
 
 
-🔎 Exercise 1 — Regex Search Tasks
-
-Below are four regex-based pattern matching exercises in Python using re.search().
 
 1️⃣ Find all reviews that start with “A” or “a”.
 
